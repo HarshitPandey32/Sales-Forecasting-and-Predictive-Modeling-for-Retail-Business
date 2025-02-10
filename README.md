@@ -57,7 +57,7 @@ Residuals (differences between actual and predicted values) are analyzed to chec
 ![image](https://github.com/user-attachments/assets/3cf6b15e-4af5-4c45-9799-5e2b0945f0ec)
 # 7. Model Deployment
 The trained model is saved using joblib, making it ready for future predictions or deployment.
-# . Prediction on Test Data
+# Prediction on Test Data
    * Applied the trained XGBoost model on the test dataset.
    * Saved the final predictions in a CSV file.
 # Tools and Technologies Used:
