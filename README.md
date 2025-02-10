@@ -1,4 +1,4 @@
-# Sales-Forecasting-and-Predictive-Modeling-for-Retail-Business
+# Sales Forecasting and Predictive Modeling for Retail Business using XGBoost Machine Learning Model in Python
 # Overview
 This project aims to predict sales for stores in the Rossmann retail chain using historical sales data, store information, and promotional data. The dataset contains sales data for 1,115 stores, including features such as competition, promotions, holidays, and store characteristics. The goal is to build a model that can predict sales for the stores based on various factors that affect sales performance.
 # Steps
@@ -31,5 +31,10 @@ Residuals (differences between actual and predicted values) are analyzed to chec
 The trained model is saved using joblib, making it ready for future predictions or deployment.
 # 9. Predictions
 The final step involves making predictions on the test dataset using the trained XGBoost model. The results are saved in a CSV file with predicted sales for each store.
-
-
+# 10. Tools and Technologies Used:
+  * Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+  * Google Colab for analysis and visualization
+  * Machine Learning Models: Logistic Regression, XGBoost
+  * Data Handling & Cleaning: Pandas, NumPy
+# 11. Conclusion
+This project demonstrates the process of predicting retail sales using historical data. It highlights the importance of data cleaning, feature engineering, and model selection in creating an effective predictive model. The model can be deployed to predict future sales, optimize inventory management, and assist in strategic decision-making for retail stores.
