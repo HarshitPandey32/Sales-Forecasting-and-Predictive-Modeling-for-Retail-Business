@@ -29,7 +29,7 @@ Performed various statistical analyses and visualizations:
    * Data Distribution & Outliers Finding: Histograms and boxplots.
      ![image](https://github.com/user-attachments/assets/f700f35e-a207-4a3f-90b5-c6028bf4b752)
      ![image](https://github.com/user-attachments/assets/248c35cb-c8be-4510-bfc7-6942f2e7821a)
-   * Handling Missing Values: Checked Null values in multiple columns (e.g., CompetitionDistance, PromoInterval) aand filled with appropriate strategies such as mean imputation or mode imputation.
+   * Handling Missing Values: Checked Null values in multiple columns (e.g., CompetitionDistance, PromoInterval) and filled with appropriate strategies such as mean imputation or mode imputation.
    * Outlier Detection & Handling: Outliers are capped using the Interquartile Range (IQR) method to avoid data loss.
 # 3. Data Cleaning & Feature Engineering
   * Converted Date column to datetime format and extracted features: Year, Month, Week, Quarter, Day of Week
